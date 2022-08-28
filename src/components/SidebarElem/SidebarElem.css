@@ -1,0 +1,26 @@
+.SidebarElem__wrapper{
+    padding: 3.3rem;
+    width: 18rem;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 25.2rem;
+  
+}
+.SidebarElem__wrapper p{
+    text-align: center;
+    font-family: var(--font-base);
+    font-size: x-large;
+    font-weight: 400;
+}
+.selected_p_elm{ 
+    cursor: pointer;
+    color: var(--color-white);
+    background: var(--main-blue);
+    margin: 0 auto;
+    border-radius: 18px;
+    border: 1.5px solid var(--main-blue);
+    width: 12rem;
+    height: 2.7rem;
+}

@@ -1,0 +1,61 @@
+.app__similaireItem__velos_wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.app__similaireItem__wrapper-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+   font-family:var(--font-alt);
+}
+.app__similaireItem__velos_wrapper img{
+    width: 100%;
+    margin-bottom:1.2rem ;
+}
+.app__similaireItem__view_wrapper{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.gallery__images{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    max-width: 51%;  
+    position: relative; 
+   }
+   .app__similaireItem__velos_wrapper{
+       padding-top: 1.2rem;
+       display: flex;
+       flex-direction: row;
+       width: 1000px;
+       overflow-x: scroll;
+       -ms-overflow-style: none;
+       scrollbar-width: none;
+       margin: 1.8rem auto; 
+       transition: 1.2s ease;
+    }
+   .img__card{
+       position: relative;
+       min-width: 303px;
+       height: 447px;
+       margin-right: 2.1rem;
+   }
+   .img__card img {
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       opacity: 1;
+       transition: .45s ease;
+   }
+.navIcons__wrapper{
+    margin-bottom: 1.2rem;
+}   
+.navIcons__wrapper>*{
+    margin: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.app__header__wrapper{
+    width: 100%;
+}
+.app__header__wrapper-text{
+  font-family:"Impact";
+    padding: 7rem 3rem;
+    color:var(--color-white);
+    font-weight: 420;
+
+    text-align: left;
+    font-size: 60px;
+
+}
+.app__header__Text-wrapper{
+    display: flex;
+    height: 45rem;
+}

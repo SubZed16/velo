@@ -1,0 +1,25 @@
+:root{
+    --background-color:var(--main-blue);
+    --header-text-color:var(--main-yellow);
+}
+.app__footer__wrapper{
+    margin: 0 auto;
+    padding: 4.2rem 3rem 6rem 3rem;
+
+    background-color: var(--background-color);
+    font-family:var(--font-alt);
+    color:var(--color-white);
+    font-weight: 300;
+    font-size: 15px;
+    
+    display: grid;
+    width: 100%;
+    grid: 12rem/repeat(4,1fr);
+}
+.footer__headlineText{
+    font-size: 24px;
+    color:var(--header-text-color);
+}
+.cell_1>p{
+    margin:1.8rem .3rem ;
+}

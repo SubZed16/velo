@@ -1,0 +1,12 @@
+.CircuitsPage_header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 2.1rem ;
+}
+.CircuitsPage_header_wrapper p {
+    font-weight:600;
+    font-size: 24px;
+    font-family:var(--font-base);
+    color: var(--main-yellow);
+}

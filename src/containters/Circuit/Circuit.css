@@ -1,0 +1,48 @@
+.app__circuit__wrapper{
+    font-family: var(--font-alt);
+    text-align: center;
+    width: 100%;
+
+}
+.circuit__bg{
+    position: relative;
+    color:var(--color-white);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    background: url("../../assets/Capture.PNG");
+    width: 90%;
+    margin: 5.4rem auto;
+    height: 45rem;
+    object-fit: cover;
+    background-clip:border-box;
+    background-size: cover;
+
+
+}
+.circuit__bg>*{
+    margin: 0 auto;
+    font-size: 81px;
+    padding: .54rem;
+    /* margin-bottom:.1rem ; */
+}
+.wrapper{
+    position:absolute;
+    cursor: pointer;
+}
+.wrapper p{
+    margin-bottom: 1.5rem;
+}
+.textalng{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+}
+.textalng >* {
+    margin-top: .6rem;
+}

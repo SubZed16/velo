@@ -1,0 +1,18 @@
+.Titlecomp-wrapper p {
+    font-family: var(--font-base);
+    font-size: 21px;
+    font-weight: 600;
+}
+.grayDiv{
+    margin-top: .3rem;
+    display: flex;
+    align-items: center;
+    width: 9rem;
+    height: 4.8px;
+    background: rgba(128, 128, 128, 0.34);
+}
+.grayDiv hr{
+    background: var(--main-blue);
+    width: 3.6rem;
+    height: 6px;
+}

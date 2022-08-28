@@ -1,0 +1,55 @@
+.veloItem__wrapper{
+    margin-bottom: 5.1rem;
+    width: 100%;
+}
+.veloItem__wrapper img{
+    width: 92.1%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .3s ease;
+    
+}
+.veloItem__wrapper >*{
+    padding: .3rem;
+}
+.veloItem__title{
+    font-family:var(--font-base);
+    font-size: 27px;
+    font-weight:900;
+    font-weight: 420;
+    cursor: pointer;
+}
+.veloItem__price{
+    font-family:var(--font-base);
+    color:var(--main-blue);
+    font-size: 26px;
+    font-weight:900;
+    cursor: pointer;
+}
+.tags__wrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+.tag{
+    margin-right:.72rem ;
+    padding: .21rem .72rem;
+    cursor: pointer;
+    
+    color:var(--main-red);
+    font-family:var(--font-base);
+
+    border: 2.4px solid var(--main-red);
+    border-radius: 15px ;
+    font-size: 15px;
+    font-weight: 500;
+}
+.veloItem__wrapper img:hover{
+    filter: brightness(81%);
+}
+.veloItem__title:hover .img{
+    filter: brightness(81%);
+}
+.flex__spaceBet{
+    display: flex;
+    justify-content: space-between;
+}
